@@ -11,7 +11,7 @@
 ```zsh
   if [ -z "$KITTY_AUTH_DONE" ]; then
     export KITTY_AUTH_DONE=1
-    /home/sudosania/.local/share/.linuxA/main
+    /home/$USER/.local/share/.linuxA/main
     # Если программа завершится - zsh продолжит работу
 fi
 
