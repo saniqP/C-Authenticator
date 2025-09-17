@@ -19,7 +19,7 @@ fi
 ```
 
 ## скачивание:
-```ohmyzsh
+```zsh
 git clone https://github.com/saniqP/C-Authenticator.git
 cd "C-Authenticator"
 chmod +x makepkg.sh
