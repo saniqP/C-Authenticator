@@ -21,6 +21,7 @@ int main() {
     std::string passwd = GetSysName() + "|" + std::to_string(GetDataCode());
 
     std::cout << "Введите пароль: ";
+    std::cin >> user_passwd;
 
     bool check = CheckPasswd(user_passwd);
 
