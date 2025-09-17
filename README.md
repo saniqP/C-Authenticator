@@ -26,6 +26,6 @@ chmod +x makepkg.sh
 ./makepkg.sh
 ```
 
-macos-`❌` \n
-linux-`✅` \n
-nixos-`❌` \n
+## macos-`❌`
+## linux-`✅` 
+## nixos-`❌` 
