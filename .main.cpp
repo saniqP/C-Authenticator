@@ -1,7 +1,19 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+
+#include <csignal>
+#include <atomic>
+
 #include ".data/datas.h"
+
+std::atomic<bool> exit_flag(false);
+
+void signal_handler(int signal) {
+    if (signal == SIGINT) {
+        std::cout << "\nВВЕДИТЕ ПАРОЛЬ!: " << std::endl;
+    }
+}
 
 bool CheckPasswd(std::string user_passwd){
     std::string passwd = GetSysName() + "|" + std::to_string(GetDataCode());   
@@ -17,6 +29,9 @@ bool CheckPasswd(std::string user_passwd){
 
 
 int main() {
+
+    std::signal(SIGINT, signal_handler);
+
     std::string user_passwd;
     std::string passwd = GetSysName() + "|" + std::to_string(GetDataCode());
 
