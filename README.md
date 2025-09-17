@@ -16,5 +16,13 @@
     /home/$USER/.local/share/.linuxA/main
     # Если программа завершится - zsh продолжит работу
 fi
-
 ```
+
+## скачивание:
+```ohmyzsh
+git clone https://github.com/saniqP/C-Authenticator.git
+cd "C-Authenticator"
+chmod +x makepkg.sh
+./makepkg.sh
+```
+
