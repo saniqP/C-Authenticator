@@ -1,8 +1,8 @@
 # C-Authenticator
 
-![пароль не введён](password1.png)
+![пароль не введён](password2.png)
 
-![пароль введён](password2.png)
+![пароль введён](password1.png)
 
 ## Это вторая аунтатификация в linux(в терминале)
 
